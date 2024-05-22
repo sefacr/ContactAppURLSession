@@ -24,7 +24,10 @@ class MainScreen: UIViewController {
         
         _ = viewModel.contactsList.subscribe(onNext: { list in
             self.PersonList = list
-            self.personsTableView.reloadData()
+            DispatchQueue.main.async {
+                self.personsTableView.reloadData()
+            }
+            
         })
         
     }
@@ -85,7 +88,7 @@ extension MainScreen : UITableViewDelegate, UITableViewDataSource {
             alert.addAction(cancelBtn)
             let deleteBtn = UIAlertAction(title: "Delete Contact", style: .destructive) {
                 action in
-                self.viewModel.delete(personId: person.kisi_id!)
+                self.viewModel.delete(personId: Int(person.kisi_id!)!)
             }
             alert.addAction(deleteBtn)
             

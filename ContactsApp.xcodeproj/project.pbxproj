@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E68907D92BFC94850022FC92 /* CRUDResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68907D82BFC94850022FC92 /* CRUDResponse.swift */; };
+		E68907DB2BFC95270022FC92 /* KisilerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = E68907DA2BFC95270022FC92 /* KisilerResponse.swift */; };
 		E6982C5C2BEA49150020EE9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6982C5B2BEA49150020EE9B /* AppDelegate.swift */; };
 		E6982C5E2BEA49150020EE9B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6982C5D2BEA49150020EE9B /* SceneDelegate.swift */; };
 		E6982C602BEA49150020EE9B /* MainScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6982C5F2BEA49150020EE9B /* MainScreen.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E68907D82BFC94850022FC92 /* CRUDResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CRUDResponse.swift; sourceTree = "<group>"; };
+		E68907DA2BFC95270022FC92 /* KisilerResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KisilerResponse.swift; sourceTree = "<group>"; };
 		E6982C582BEA49150020EE9B /* ContactsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6982C5B2BEA49150020EE9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6982C5D2BEA49150020EE9B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -121,6 +125,8 @@
 			isa = PBXGroup;
 			children = (
 				E6982C772BEA76C90020EE9B /* Kisiler.swift */,
+				E68907D82BFC94850022FC92 /* CRUDResponse.swift */,
+				E68907DA2BFC95270022FC92 /* KisilerResponse.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -231,6 +237,8 @@
 			files = (
 				E6982C602BEA49150020EE9B /* MainScreen.swift in Sources */,
 				E6982CD42BF376EB0020EE9B /* RegisterViewModel.swift in Sources */,
+				E68907DB2BFC95270022FC92 /* KisilerResponse.swift in Sources */,
+				E68907D92BFC94850022FC92 /* CRUDResponse.swift in Sources */,
 				E6982C5C2BEA49150020EE9B /* AppDelegate.swift in Sources */,
 				E6982C752BEA6A9C0020EE9B /* DetailViewController.swift in Sources */,
 				E6982C5E2BEA49150020EE9B /* SceneDelegate.swift in Sources */,

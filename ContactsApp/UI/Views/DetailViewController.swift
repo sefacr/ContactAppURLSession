@@ -26,7 +26,7 @@ class DetailViewController: UIViewController {
     
     @IBAction func updateBtnClicked(_ sender: Any) {
         if let name = nameTextField.text, let phoneNumber = phoneNumberTextField.text, let k = person {
-            viewModel.update(kisi_id: k.kisi_id!, kisi_ad: name, kisi_tel: phoneNumber)
+            viewModel.update(kisi_id: Int(k.kisi_id!)!, kisi_ad: name, kisi_tel: phoneNumber)
         }
     }
     
